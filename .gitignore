@@ -1,0 +1,42 @@
+# Node.js dependencies
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment files
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Temporary files
+.DS_Store
+Thumbs.db
+.tmp
+dist/
+coverage/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# System files
+*.swp
+*.swo
+
+# Test cache
+.mocha/
+.jest/
+
+# Output zips or archives
+*.zip
